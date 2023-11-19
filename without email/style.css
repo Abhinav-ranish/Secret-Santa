@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff7f7f; /* Change to a Christmas red color */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff7f7f; /* Same as the body color */
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #33cc33; /* Change to a Christmas green color */
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #cc0000; /* Change to a darker red color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #990000; /* Change to a darker shade of red on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff0000; /* Change to a bright red color for the result text */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px; /* Add margin at the top to separate from the content */
+}
