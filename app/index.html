@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Santa Randomizer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include the smtp.js library -->
+    <script src="smtp.js"></script>
+  
+</head>
+<body>
+    <div class="container">
+        <h1>Secret Santa Randomizer</h1>
+        <form id="namesForm">
+            <label for="names">Enter names:</label>
+            <textarea id="names" rows="6" placeholder="Enter names, one per line"></textarea>
+
+            <!-- Replace the Discord webhook input with an email input -->
+            <label for="emails">Enter email addresses:</label>
+            <textarea id="emails" rows="6" placeholder="Enter email addresses, one per line"></textarea>
+
+            <button type="button" onclick="randomize()">Randomize</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <footer>
+        <audio id="backgroundMusic" controls autoplay muted loop>
+            <source src="https://cdn.discordapp.com/attachments/1170895032753082398/1175664429375946792/y2mate.com_-_We_Wish_You_a_Merry_Christmas_with_Lyrics_Christmas_Carol_Song.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </footer>
+
+  
+    <!-- Include your own script.js file -->
+    <script src="script.js"></script>
+</body>
+</html>
